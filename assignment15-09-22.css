@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto,sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.center ul {
+    display: flex;
+    text-transform: capitalize;
+    list-style: none;
+
+}
+
+.center ul li {
+    padding: 20px;
+}
+
+.banner {
+    /* background: url("images/unnamed11.png"); */
+    background-image:url("http://pioverseas.com/wp-content/themes/twentytwentytwo-child/assets/img/hero/slider-bg-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: lightsteelblue;
+    font-size: 20px;
+}
+
+nav ul li {
+    padding: 15px 30px;
+    text-transform: capitalize;
+}
+
+.right {
+    display: flex;
+    padding: 10px;
+    border-left: 1px solid;
+}
+.right .right1{
+    padding-right: 8px;
+    margin-top: 25px;
+}
+.page .left {
+    color: white;
+    margin-left: 20px;
+    padding-left: 40px;
+}
+.left h1 {
+    /* padding: 15px; */
+    width: 100%;
+    font-size: 60px;
+}
+.left p{
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.left ul{
+    padding: 5px;
+    padding-left: 40px;
+    font-size: 26px;
+}
+.left li{
+    padding: 5px;
+}
+.left a{
+    padding: 5px 15px;
+    background-color: green;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border-right:1px solid;
+}
+nav ul li a{
+    text-decoration: none;
+}
+/* .rights .enquiry{
+    display: flex;
+    align-items: center; */
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+.rights{
+    border: 1px solid white;
+    text-align: center;
+    height: 500px;
+    width: 27%;
+    background-color: white;
+    margin: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.rights .enquiry h2{
+    font-size: 40px;
+}
+.rights .enquiry p{
+    font-size: 17px;
+    color: slategrey;
+    padding: 11px;
+}
+.from{
+    width: 100%;  
+}
+.rights .enquiry .form{
+    width: 100%;
+    padding: 2px;
+    /* padding-left: 1px; */
+}
+.enquiry .form input{
+    background-color: aliceblue;
+    width: 76%;
+    margin: 3px;
+    padding: 10px;
+    font-size: 16px;
+    height: 50px;
+}
+.enquiry .form textarea{
+    background-color: aliceblue;
+    width: 75%;
+    padding: 9px;
+    font-size: 15px;
+}
+.form-forms input{
+    background-color: green;
+    color: white;
+    /* margin: 10px; */
+    margin-right: 17px;
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+}
+.froms input{
+    background-color: green;
+    border: none;
+    width: 80%;
+    padding: 20px;
+}
+.center1{
+    padding: 10px;
+    text-align: justify;
+    margin: 30px;
+}
+.center1 h5{
+    font-size: 18px;
+    border-bottom: 2px solid #ededed;
+    width: 150px;
+    color: grey;
+    margin: 27px;
+}
+.center1 h2 {
+    font-size: 36px;
+    /* font-weight: 700px;
+    margin-top: -18px; */
+    margin: 18px;
+}
+.center1 p {
+    font-size: 20px;
+    /* font-weight: 500px; */
+    padding: 24px;
+    margin-right: 16px;
+}
+.class .heading p{
+    /* padding: 10px; */
+}
+.class .heading h1{
+    padding: 10px;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 50px; 
+}
+.boxes{
+    display: flex;
+    
+}
+.box{
+   width: 22%;
+   border: 1px solid lightsteelblue;
+   height: 425px;
+   margin: 20px;
+}
+.box .img{
+    height: 200px;
+}
+.box .img img{
+    height: 100%;
+    width: 100%;
+}
+.boxes .box .text{
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+.box .text h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.box .text p{
+    padding: 10px;
+}
+
+.boxes.box :hover{
+    background-color: green;
+}
+.box .text a{
+    text-decoration: none;
+    color: #369229;
+}
+.all{
+    text-align: center;
+   
+    color: white;
+    /* border: 2px solid; */
+    margin: 5%;
+    list-style: none;
+}
+.all a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+}
+.imgs{
+    padding-top: 125px;
+    /* margin: 50px; */
+    color: white;
+}
+.imgs h2 {
+    text-transform: capitalize;
+}
+.bottam{
+    display: flex;
+}
+#background{
+   /* background-image: url(images/image\ \(9\).png); */
+   background-image: url(http://pioverseas.com/wp-content/uploads/2022/06/scholarship-bg.png);
+}
+#right{
+    color: white;
+    padding-left: 5%;
+    text-align: center;
+    padding-top: 100px;
+}
+#text h2{
+    text-transform: capitalize;
+    padding: 20px;
+    margin: 10px;
+    font-size: 35px;
+}
+#text p{
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+#right #text #img{
+    padding: 100px;
+}
+#validity{
+    padding: 30px;
+}
+#apply{
+    background-color: green;
+    width: 158px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 160px;
+}
+#apply a{
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid; */
+}
+#apply a:hover{
+    color: black;
+}
+
+.number{
+    display: flex;
+    text-align: center;
+    padding: 22px;
+    margin-left: 28px;
+    font-size: 24px;
+}
+
+.number .numberss{
+    padding: 20px 70px;
+    border: 1px solid lightgrey;
+    margin: 20px;
+}
+.number .numberss h1{
+   color: green;
+}
+.end1{
+    padding: 10px;
+}
+.end1 h2{
+    margin: 10px 0;
+}
+.end1 p{
+    margin: 0  0 28px 0;
+}
+
+.end1 a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: #3fbe3f;
+    border: 2px solid;
+}
+.end a i{
+    color: #369229;
+    position: relative;
+}
+.bottom1{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(http://pioverseas.com/wp-content/uploads/2022/06/partners-1.png);
+    padding: 2rem;
+    margin: 40px;
+}
+.bottom1 .end1{
+    width: 100%;
+}
+.tital{
+    text-align: center;
+    padding: 3%;
+}
+.wapper{
+    display: flex;
+    /* padding: 10px; */
+    /* padding-right: 35%; */
+    width: 100%;
+}
+.wapper .boxes3{
+    border: 1px solid  rgb(235, 247, 243) ;
+    margin: 1rem;
+    padding: 1rem;
+    height: 255px;
+}
+.wapper .boxes3 .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.name .id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26px;
+}
+.pic{
+    /* padding: 10px; */
+}
+.suresh{
+    padding-left:58px ;
+}
+.name .logo{
+    padding-right: 80px;
+    font-size: 30px;
+}
+.star i{
+    color: green;
+    /* padding: 10px; */
+}
+.star{
+    display: flex;
+    padding: 15px;
+}
+.aero{
+    text-align: center;
+    margin-top: 40px;
+    /* padding: 10px; */
+}
+.aero a{
+    padding: 10px;
+    font-size: 20px;
+    color: aquamarine;
+}
+.aero a:first-child{
+    color: green;
+}
+.last-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.two-row{
+    /* padding: 40px;
+    padding-right: 48%; */
+    width: 50%;
+}
+.Pioverseas{
+    font-size: 18px;
+}
+.Pioverseas h2{
+    padding-top: 10px;
+}
+.Pioverseas p{
+    padding-top: 40px;
+}
+.Pioverseas a{
+    text-decoration: none;
+    padding: 35px;
+    color: green;
+    /* border: 1px solid; */
+}
+.rights2{
+    border: 1px solid green;
+    width: 47%;
+    text-align: center;
+    padding: 25px;
+}
+.rights2 .enquiry2 p{
+    line-height: 17px;
+}
+.enquiry2 h2{
+    padding: 10px;
+    font-size: 36px;
+}
+.from2{
+    padding: 10px;
+}
+.news{
+    text-align: center;
+    padding: 30px;
+}
+.universitie{
+    display: flex;
+}
+.collage{
+    width: 34%;
+    padding-left:2rem;
+
+}
+.collage .click{
+    width: 500px;
+}
+.click img{
+    width: 100%;
+}
+.universitie2 .collage2 .click2{
+    height: 108px;
+    width: 396px;
+    padding-left: 105px;
+}
+
+.universitie2 .collage2 .click2 img{
+    width: 100%;
+    height: 100%;
+}
+.post span{
+    color: lightgreen;
+}
+.post h3{
+    background-color: lightcyan;
+    padding: 4px;
+    padding-left: 26px;
+}
+.post p{
+    width: 510px;
+}
+.post p span{
+    margin: 210px;
+    color: lightblue;
+    background-color: green;
+}
+.collage2{
+    display: flex;
+    width: 100%;
+}
